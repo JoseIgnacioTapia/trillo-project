@@ -1,14 +1,22 @@
 {
-  "name": "trillo",
+  "name": "trillo-project",
   "version": "1.0.0",
-  "description": "trillo app",
+  "description": "A Hotel search project using flexbox",
   "main": "index.js",
   "scripts": {
     "start": "node-sass -w sass -o css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseIgnacioTapia/trillo-project.git"
+  },
   "author": "Joe",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.5.3"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseIgnacioTapia/trillo-project/issues"
+  },
+  "homepage": "https://github.com/JoseIgnacioTapia/trillo-project#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
   }
 }
